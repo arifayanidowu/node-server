@@ -54,6 +54,13 @@ app.get('/about', (req, res) => {
     });
 });
 
+app.get('/project', (req, res) => {
+    res.render('project.hbs', {
+        pageTitle: 'Personal Portfolio',
+        welcomeMessage: 'Welcome to my Portfolio'
+    });
+});
+
 app.get('/bad', (req, res) => {
     res.status(404).send({
         errorMessage: `404 Page not found`
