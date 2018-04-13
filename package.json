@@ -1,0 +1,19 @@
+{
+    "name": "web-server",
+    "version": "1.1.0",
+    "description": "Building online web apps with NodeJS",
+    "main": "server.js",
+    "scripts": {
+        "test": "^c"
+    },
+    "repository": {
+        "type": "git",
+        "url": "stizzle123@github.com"
+    },
+    "author": "Arifayan Idowu",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.3",
+        "hbs": "^4.0.1"
+    }
+}

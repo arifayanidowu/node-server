@@ -1,0 +1,7 @@
+.container {
+  width: 100%;
+  background: linear-gradient(rgba(112, 183, 196, 0.918), rgba(1, 17, 20, 0.452));
+  font-family: consolas;
+  color: #fff;
+  text-align: center;
+}
