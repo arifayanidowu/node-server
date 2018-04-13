@@ -5,14 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{pageTitle}}</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" type="text/css" href="../public/dist/style.css">
+
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            color: #1b1919;
+            font-family: consolas;
+            height: 100%;
+        }
+    
+        .container {
+            width: 100%;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    {{> header}}
-    <p>Some text...</p>
 
-
-
-    {{> footer}}
+    <div class="container">
+         {{> header}}
+        <p>Some text...</p>
+        
+        
+        
+        {{> footer}}
+    </div>
+    
 </body>
 </html>
