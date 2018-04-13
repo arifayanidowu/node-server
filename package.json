@@ -4,7 +4,8 @@
     "description": "Building online web apps with NodeJS",
     "main": "server.js",
     "scripts": {
-        "test": "^c"
+        "test": "^c",
+        "start": "node server.js"
     },
     "repository": {
         "type": "git",
